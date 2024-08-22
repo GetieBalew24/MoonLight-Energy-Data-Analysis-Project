@@ -3,3 +3,5 @@ matplotlib
 seaborn
 windrose
 streamlit
+scipy
+pytest
