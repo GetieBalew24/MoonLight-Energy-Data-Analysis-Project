@@ -5,26 +5,26 @@
 # Folder Structure
 
 - The project is organized as follows:
-  ├── .vscode/
-  │ └── settings.json # VSCode settings for consistent development environment
-  ├── .github/
-  │ └── workflows/
-  │ ├── unittests.yml # CI/CD workflow for running unittests
-  ├── .gitignore # Git ignore file to exclude unnecessary files from the repository
-  ├── requirements.txt # Python dependencies for the project
-  ├── README.md # Overview and instructions for the project
-  ├── src/
-  │ ├── **init**.py # Init file for the src module
-  │ ├── eda.py # EDA functions for data analysis
-  ├── notebooks/
-  │ ├── **init**.py # Init file for the notebooks module
-  │ ├── eda.ipynb # Jupyter notebook for interactive EDA
-  ├── tests/
-  │ ├── **init**.py # Init file for the tests module
-  │ ├── test_eda.py # Unit tests for the EDA functions
-  └── scripts/
-  ├── **init**.py # Init file for the scripts module
-  └── run_eda.sh # bash Script to execute EDA and generate reports
+  - ├── .vscode/
+  - │ └── settings.json # VSCode settings for consistent development environment
+  - ├── .github/
+  - │ └── workflows/
+  - │ ├── unittests.yml # CI/CD workflow for running unittests
+  - ├── .gitignore # Git ignore file to exclude unnecessary files from the repository
+  - ├── requirements.txt # Python dependencies for the project
+  - ├── README.md # Overview and instructions for the project
+  - ├── src/
+  - │ ├── **init**.py # Init file for the src module
+  - │ ├── eda.py # EDA functions for data analysis
+  - ├── notebooks/
+  - │ ├── **init**.py # Init file for the notebooks module
+  - │ ├── eda.ipynb # Jupyter notebook for interactive EDA
+  - ├── tests/
+  - │ ├── **init**.py # Init file for the tests module
+  - │ ├── test_eda.py # Unit tests for the EDA functions
+  - └── scripts/
+  - ├── **init**.py # Init file for the scripts module
+  - └── run_eda.sh # bash Script to execute EDA and generate reports
 
 # Development Environment Setup
 
