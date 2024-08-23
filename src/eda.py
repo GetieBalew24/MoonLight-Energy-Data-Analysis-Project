@@ -87,8 +87,17 @@ def scatter_plots(df):
     plt.show()
 
 def data_cleaning(df):
+    #
     df_cleaned = df.dropna()
     df_cleaned = df_cleaned[(df_cleaned['GHI'] >= 0) & (df_cleaned['DNI'] >= 0) & (df_cleaned['DHI'] >= 0)]
     df_cleaned = df_cleaned.drop(columns=['Comments'])
     return df_cleaned
 
+def detect_outliers(df,column):
+    threshold=3
+    # Detect outliers in a specified column using Z-score method.
+    mean = df[column].mean()
+    std_dev = df[column].std()
+    z_scores = (df[column] - mean) / std_dev
+    outliers = df[np.abs(z_scores) > threshold]
+    return outliers
