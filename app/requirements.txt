@@ -6,4 +6,3 @@ streamlit
 scipy
 pytest
 plotly
-src/eda
