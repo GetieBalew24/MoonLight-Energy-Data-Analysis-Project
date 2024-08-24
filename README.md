@@ -1,3 +1,5 @@
+# Dashboard Demo Link: https://getiebalew-eda-project.onrender.com
+
 # Project Documentation: Solar Radiation Data Analysis
 
 - The project focuses on the exploratory data analysis (EDA) of solar radiation measurement data collected from Benin, Sierra Leone, and Togo. The primary goal is to derive insights from the dataset to inform strategic decisions for solar energy investments. The project involves setting up a development environment, performing EDA, conducting statistical analysis, and reporting the findings.
