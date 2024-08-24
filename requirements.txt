@@ -5,3 +5,4 @@ windrose
 streamlit
 scipy
 pytest
+plotly
