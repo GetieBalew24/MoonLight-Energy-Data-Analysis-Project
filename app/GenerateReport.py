@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 import sys
 import os
 # Get the path of the project directory
@@ -48,28 +47,35 @@ elif options == "Data Quality Check":
 
 elif options == "Time Series Analysis":
     st.subheader("Time Series Analysis")
-    time_series_analysis(df)
+    time_series = time_series_analysis(df)
+    st.pyplot(time_series) 
 
 elif options == "Correlation Analysis":
     st.subheader("Correlation Analysis")
-    correlation_analysis(df)
+    cor_anl=correlation_analysis(df)
+    st.pyplot(cor_anl)
 
 elif options == "Wind Analysis":
     st.subheader("Wind Analysis")
-    wind_analysis(df)
+    wind_anl=wind_analysis(df)
+    st.pyplot(wind_anl)
 
 elif options == "Temperature Analysis":
     st.subheader("Temperature Analysis")
-    temperature_analysis(df)
+    temp_anl=temperature_analysis(df)
+    st.pyplot(temp_anl)
 
 elif options == "Histograms":
     st.subheader("Histograms")
-    histograms(df)
+    hist=histograms(df)
+    st.pyplot(hist)
 
 elif options == "Box Plots":
     st.subheader("Box Plots")
-    box_plots(df)
+    box_plt=box_plots(df)
+    st.pyplot(box_plt)
 
 elif options == "Scatter Plots":
     st.subheader("Scatter Plots")
-    scatter_plots(df)
+    scatter_plot=scatter_plots(df)
+    st.pyplot(scatter_plot)
